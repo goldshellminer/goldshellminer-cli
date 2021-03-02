@@ -1,6 +1,15 @@
 # Goldshellminer-cli
 
-### MINING GUILD
+### Introduction
+
+It is a mining software to interact with goldshell home-mining device (HS1, HS1-Plus)
+
+HS1: https://www.goldshell.com/hs1-handshake-miner-intro/   
+
+HS1-Plus:  https://www.goldshell.com/hs1-handshake-miner-intro/  
+
+
+### Mining Guide
 
 Tested on Linux, Windows and Mac OS. 
 
