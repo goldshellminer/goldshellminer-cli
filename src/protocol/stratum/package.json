@@ -1,0 +1,107 @@
+{
+  "_from": "stratum",
+  "_id": "stratum@0.2.4",
+  "_inBundle": false,
+  "_integrity": "sha1-avamK2/dp0TBuDw5cbH3kVt2Ei0=",
+  "_location": "/stratum",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "stratum",
+    "name": "stratum",
+    "escapedName": "stratum",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/stratum/-/stratum-0.2.4.tgz",
+  "_shasum": "6af6a62b6fdda744c1b83c3971b1f7915b76122d",
+  "_spec": "stratum",
+  "_where": "D:\\share\\ibctminer",
+  "bin": {
+    "stratum-notify": "./bin/stratum-notify"
+  },
+  "bugs": {
+    "url": "https://github.com/pocesar/node-stratum/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "better-curry": "*",
+    "bluebird": "2.x",
+    "chalk": "*",
+    "commander": "*",
+    "debug": "*",
+    "es5class": "1.x.x",
+    "eventemitter3": "1.x",
+    "json-rpc2": "1.x",
+    "lodash": "3.x",
+    "toobusy-js": "*",
+    "uuid": "*"
+  },
+  "deprecated": false,
+  "description": "Stratum protocol server and client for node.js",
+  "devDependencies": {
+    "coveralls": "*",
+    "expect.js": "*",
+    "istanbul": "*",
+    "jshint": "*",
+    "mocha": "*",
+    "mocha-lcov-reporter": "*",
+    "sinon": "*"
+  },
+  "directories": {
+    "lib": "./lib",
+    "bin": "./bin"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "homepage": "https://github.com/pocesar/node-stratum#readme",
+  "keywords": [
+    "stratum",
+    "json-rpc",
+    "json-rpc2",
+    "jsonrpc2",
+    "jsonrpc",
+    "cryptocoin",
+    "rpc",
+    "server",
+    "protocol",
+    "tcp",
+    "socket"
+  ],
+  "license": "GPLv2",
+  "main": "./lib",
+  "name": "stratum",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pocesar/node-stratum.git"
+  },
+  "scripts": {
+    "coverage": "node ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha",
+    "coveralls": "node ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- --report lcovonly && cat ./coverage/lcov.info | node ./node_modules/coveralls/bin/coveralls.js",
+    "test": "jshint lib test && mocha"
+  },
+  "version": "0.2.4",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": "0.10.x"
+      },
+      "pkgid": "stratum@0.2.4"
+    },
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": "0.10.x"
+      },
+      "pkgid": "stratum@0.2.4"
+    }
+  ]
+}
